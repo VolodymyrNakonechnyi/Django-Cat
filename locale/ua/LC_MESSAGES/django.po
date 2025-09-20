@@ -1,0 +1,637 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-18 14:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\templates\exhibitions.html:14 .\templates\footer.html:62
+#: .\templates\header.html:48 .\templates\login.html:35
+#: .\templates\register.html:15 .\templates\register.html:26
+msgid "Реєстрація"
+msgstr ""
+
+#: .\templates\exhibitions.html:24
+msgid "Найближчі виставки!"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "Преставляємо нову котячу виставку"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "Not Nuance November Cat"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "яка пройде"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "із 10 включно по 21 листопада 2024 року!"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"Хочемо сказати, що в цій виставці будуть брати участь всі бажаючі господарі "
+"із їхніми пухнастими домашніми юлюбленцями. Учасники матимуть змогу виграти "
+"титул найкращого кота року! А також невеликий приз від наших партнерів. "
+"Спільно із компаніями"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "та іншими наш клуб"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"влаштує котячу виставку у якій буде вибрано найкращого господаря та кота/"
+"кішку за різними номінаціями. Найголовніший приз який пропонують наші "
+"партнери в номінації кіт та господар року це"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"Зрозуміло, що господарі, які займуть не головні місця також матимуть дуууже "
+"приємні бонуси, повірте це свято коштує вашої уваги! Всі інші збори від "
+"партнерів та членів клубу будуть відправлені на благодійність! Тому "
+"рекомендуємо не зволікати та максимально завчасно реєструватися на нашому "
+"сайті, а тоді заповнити контактну форму, взяти Вашого котячого улюбленця і "
+"відправитись у представництво клубу, яке можна знайти за гугл картою, яка "
+"прикріплена на сайті. Нехай щастить!"
+msgstr ""
+
+#: .\templates\exhibitions.html:33
+msgid "Круто провести час!"
+msgstr ""
+
+#: .\templates\exhibitions.html:34
+msgid ""
+"Це свято дає змогу додати трішечки барв у наше сумне осіннє життя. Та "
+"дозволяє місцевому та іншим бізнесам отримати додатковий прибуток, оскільки "
+"на наше свято з'їзджаються люди зі всього світу із великою кількість чудових "
+"домашніх котів/кішок. Тому ви матимете змогу чудово провести свій час в "
+"компанії таких же, як і Ви, люблячих власників домашніх улюбленців!"
+msgstr ""
+
+#: .\templates\exhibitions.html:39
+msgid "Виграти приз!"
+msgstr ""
+
+#: .\templates\exhibitions.html:40
+msgid ""
+"Кожен учасник не піде від нас із пустими руками, це просто неможливо, всі "
+"отримають свою долю призів! Це будуть як і сертифікат на корм, спа, зачіски, "
+"стрижку котів так і грошові винагороди у вигляді різних грантів <b>від наших "
+"партнерів</b>, або ж навіть путівки в тропіки!!! Де ви разом із Вашим "
+"домашнім улюбленцем зможете чудово відпочити, а також прогулятися по "
+"найкращих набережних всієї планети!"
+msgstr ""
+
+#: .\templates\exhibitions.html:44
+msgid "Ти досі чекаєш? Давай проходь"
+msgstr ""
+
+#: .\templates\exhibitions.html:44
+msgid "реєстрацію"
+msgstr ""
+
+#: .\templates\exhibitions.html:44
+msgid "і приєднуйся до нашого клубу! Ті можливості, які ми пропонуємо саме"
+msgstr ""
+
+#: .\templates\exhibitions.html:44
+msgid "Тобі"
+msgstr ""
+
+#: .\templates\exhibitions.html:44
+msgid "і твоєму улюбленцю - унікальний дар!"
+msgstr ""
+
+#: .\templates\footer.html:12
+msgid "Ми в соціальних мережах"
+msgstr ""
+
+#: .\templates\footer.html:23
+msgid ""
+"Приєднуйтесь до нас в соціальні мережі! Там ви матимете змогу взяти участь в "
+"спеціальних івентах та навіть виграти призи!"
+msgstr ""
+
+#: .\templates\footer.html:29
+msgid "Справка"
+msgstr ""
+
+#: .\templates\footer.html:33
+msgid "Політика конфедеційності"
+msgstr ""
+
+#: .\templates\footer.html:34
+msgid "Політика використання файлів cookie"
+msgstr ""
+
+#: .\templates\footer.html:35
+msgid "Підтримка"
+msgstr ""
+
+#: .\templates\footer.html:36
+msgid "Умови користування"
+msgstr ""
+
+#: .\templates\footer.html:37
+msgid "Повідомлення про авторські права"
+msgstr ""
+
+#: .\templates\footer.html:44
+msgid "Навігація"
+msgstr ""
+
+#: .\templates\footer.html:49 .\templates\header.html:21
+msgid "Головна"
+msgstr ""
+
+#: .\templates\footer.html:50 .\templates\header.html:27
+#: .\templates\header.html:35
+msgid "Оголошення"
+msgstr ""
+
+#: .\templates\footer.html:51 .\templates\header.html:25
+#: .\templates\header.html:33
+msgid "Каталог"
+msgstr ""
+
+#: .\templates\footer.html:52 .\templates\header.html:39
+msgid "Переможці"
+msgstr ""
+
+#: .\templates\footer.html:53 .\templates\header.html:38
+msgid "Виставки"
+msgstr ""
+
+#: .\templates\footer.html:54 .\templates\header.html:40
+#: .\templates\index.html:71
+msgid "Про нас"
+msgstr ""
+
+#: .\templates\footer.html:55 .\templates\header.html:41
+msgid "Контакти"
+msgstr ""
+
+#: .\templates\footer.html:61 .\templates\header.html:46
+#: .\templates\login.html:13 .\templates\login.html:25
+msgid "Вхід"
+msgstr ""
+
+#: .\templates\footer.html:64
+msgid "Реєстрація завжди відкрита, не бійся, це безкоштовно!"
+msgstr ""
+
+#: .\templates\footer.html:73
+msgid "@Всі права захищені!"
+msgstr ""
+
+#: .\templates\forum.html:16 .\templates\header.html:26
+#: .\templates\header.html:34
+msgid "Форум"
+msgstr ""
+
+#: .\templates\forum.html:26
+msgid "Актуальні теми обговорення проблем кішок"
+msgstr ""
+
+#: .\templates\forum.html:30 .\templates\forum.html:31
+msgid "Пошук за темою"
+msgstr ""
+
+#: .\templates\forum.html:33 .\templates\forum.html:66
+#: .\templates\forum.html:97
+msgid "Здоров'я та благополуччя кішки"
+msgstr ""
+
+#: .\templates\forum.html:34 .\templates\forum.html:127
+msgid "Цікаве спостереження"
+msgstr ""
+
+#: .\templates\forum.html:35 .\templates\forum.html:154
+msgid "Співжиття із кішкою"
+msgstr ""
+
+#: .\templates\forum.html:36 .\templates\forum.html:182
+msgid "Проблемна кішка"
+msgstr ""
+
+#: .\templates\forum.html:38 .\templates\forum.html:39
+msgid "Пошук за користувачем"
+msgstr ""
+
+#: .\templates\forum.html:40 .\templates\forum.html:41
+msgid "Пошук за породою кішки"
+msgstr ""
+
+#: .\templates\forum.html:42
+msgid "Дата від"
+msgstr ""
+
+#: .\templates\forum.html:44
+msgid "Дата до"
+msgstr ""
+
+#: .\templates\forum.html:49
+msgid "Я даю згоду на обробку та зберігання моїх персональних даних."
+msgstr ""
+
+#: .\templates\forum.html:55
+msgid "Очистити поля фільтрації"
+msgstr ""
+
+#: .\templates\forum.html:58
+msgid "Пошук"
+msgstr ""
+
+#: .\templates\forum.html:75
+msgid "Моя кішка не може сходити до туалету, що ж робити?"
+msgstr ""
+
+#: .\templates\forum.html:77
+msgid ""
+"Дуже довго спостерігаю за своєю кішкою і помітив, що вона не ходить у "
+"туалет! Чому? Можливо це якийсь стрес? Не буде дивним якщо я піду разом з "
+"нею до ветеренара по такій причині? Підкажіть, будь ласка!"
+msgstr ""
+
+#: .\templates\forum.html:82 .\templates\forum.html:196
+msgid "2 Відповіді"
+msgstr ""
+
+#: .\templates\forum.html:86 .\templates\forum.html:117
+#: .\templates\forum.html:144 .\templates\forum.html:172
+#: .\templates\forum.html:200
+msgid "Запостив користувач"
+msgstr ""
+
+#: .\templates\forum.html:86
+msgid "VitoScaletta"
+msgstr ""
+
+#: .\templates\forum.html:87 .\templates\forum.html:118
+#: .\templates\forum.html:145 .\templates\forum.html:173
+#: .\templates\forum.html:201
+msgid "порода кішки"
+msgstr ""
+
+#: .\templates\forum.html:87 .\templates\forum.html:173
+msgid "Британська вісловуха"
+msgstr ""
+
+#: .\templates\forum.html:88 .\templates\forum.html:119
+#: .\templates\forum.html:146 .\templates\forum.html:174
+#: .\templates\forum.html:202
+msgid "на"
+msgstr ""
+
+#: .\templates\forum.html:104
+msgid ""
+"Чому мій кіт після стерилізації впав у депресію? Можливо це якось виправити?"
+msgstr ""
+
+#: .\templates\forum.html:106
+msgid ""
+"Мій кіт Герольд упав у депресію! Він у мене аристократ і я подумав, що "
+"можливо його 'голуба кров' так хоче, тому зі мною так. Проте, вчора я "
+"дізнався, що моя дружина Бенедікта віддала його до ветеренара, бо вважала, "
+"що він себе погано поводить. Ветеренар у свою чергу вирішив його каструвати."
+msgstr ""
+
+#: .\templates\forum.html:109
+msgid ""
+"Будь ласка, підкажіть, що робити? Я собі місця не нахожду, я люблю Герольда "
+"і не хочу, аби він сумував."
+msgstr ""
+
+#: .\templates\forum.html:113
+msgid "10 Відповідей"
+msgstr ""
+
+#: .\templates\forum.html:117
+msgid "KolioRossini"
+msgstr ""
+
+#: .\templates\forum.html:118 .\templates\forum.html:145
+msgid "Шотландська вісловуха"
+msgstr ""
+
+#: .\templates\forum.html:135
+msgid ""
+"Кішка падає завжди на лапи, а бутерброд маслом вниз. Якщо я прив'яжу "
+"будерброд маслом вверх до кішки і кину кішку вийде нескінчченний двигун?"
+msgstr ""
+
+#: .\templates\forum.html:136
+msgid "Хтось пробував? Дуже цікаво просто..."
+msgstr ""
+
+#: .\templates\forum.html:140
+msgid "1 Відповідь"
+msgstr ""
+
+#: .\templates\forum.html:144
+msgid "VictorioBibik"
+msgstr ""
+
+#: .\templates\forum.html:162
+msgid ""
+"Одружився, але кішка моєї нової дружини нападає на мене. Що робити? Як "
+"ввійти в її коло довіри?"
+msgstr ""
+
+#: .\templates\forum.html:163
+msgid ""
+"Кішка дуже гордовита, б'ється, дереться і дуже агресивно себе поводить. "
+"Проте, коли вона на руках у жінки, то все добре. Чому так? Невже я їй чимось "
+"не подобаюсь? Підскажіть як стати членом сім'ї для кішки!"
+msgstr ""
+
+#: .\templates\forum.html:168
+msgid "0 Відповідей"
+msgstr ""
+
+#: .\templates\forum.html:172
+msgid "VovaGonchar"
+msgstr ""
+
+#: .\templates\forum.html:190
+msgid "Помічаю за кішкою маніакальна наклонності."
+msgstr ""
+
+#: .\templates\forum.html:191
+msgid ""
+"Весь час вбиває голубів, хоча ми вегетаріанці. Чому так? І як змусити її "
+"перейти на зелену їжу!"
+msgstr ""
+
+#: .\templates\forum.html:200
+msgid "EmiliaOkrenets"
+msgstr ""
+
+#: .\templates\forum.html:201
+msgid "Норвезька лісова"
+msgstr ""
+
+#: .\templates\header.html:17 .\templates\header.html:25
+#: .\templates\header.html:26 .\templates\header.html:27
+#: .\templates\header.html:33 .\templates\header.html:34
+#: .\templates\header.html:35 .\templates\header.html:38
+#: .\templates\header.html:39 .\templates\header.html:40
+#: .\templates\header.html:41 .\templates\header.html:46
+#: .\templates\header.html:48 .\templates\header.html:69
+#: .\templates\header.html:70
+msgid "/uk-ua"
+msgstr ""
+
+#: .\templates\header.html:18
+msgid "Клуб \"Котолюб\""
+msgstr ""
+
+#: .\templates\header.html:23
+msgid "Публікації"
+msgstr ""
+
+#: .\templates\header.html:67
+msgid "Вхід/Реєстрація"
+msgstr ""
+
+#: .\templates\header.html:69
+msgid "Вхід до клубу котячих любителів \"Котолюб\""
+msgstr ""
+
+#: .\templates\header.html:70
+msgid "Реєстрація членів клубу котячих любителів \"Котолюб\""
+msgstr ""
+
+#: .\templates\index.html:14
+msgid "Домашня сторінка"
+msgstr ""
+
+#: .\templates\index.html:25
+msgid "Вітаємо в клубі \"Котолюб\"!"
+msgstr ""
+
+#: .\templates\index.html:26
+msgid "Приєднуйся до нас!"
+msgstr ""
+
+#: .\templates\index.html:27
+msgid "Дізнатися більше?"
+msgstr ""
+
+#: .\templates\index.html:33
+msgid "Коти переможців минулих виставок!"
+msgstr ""
+
+#: .\templates\index.html:82
+msgid "Наша місія і боротьба!"
+msgstr ""
+
+#: .\templates\index.html:89
+msgid "Щорічні виставки!"
+msgstr ""
+
+#: .\templates\index.html:99
+msgid "Про можливості нашого сайту"
+msgstr ""
+
+#: .\templates\index.html:105
+msgid "Оголошення!"
+msgstr ""
+
+#: .\templates\index.html:112
+msgid "Пишіть, пишіть і ще раз пишіть!"
+msgstr ""
+
+#: .\templates\index.html:117
+msgid "Нехай щастить!"
+msgstr ""
+
+#: .\templates\index.html:127
+msgid "Ми в соціальних мережах!"
+msgstr ""
+
+#: .\templates\index.html:139
+msgid "Напишіть нам!"
+msgstr ""
+
+#: .\templates\index.html:141
+msgid "Ваше ім'я"
+msgstr ""
+
+#: .\templates\index.html:142 .\templates\login.html:26
+#: .\templates\login.html:27 .\templates\register.html:49
+#: .\templates\register.html:50
+msgid "Електронна пошта"
+msgstr ""
+
+#: .\templates\index.html:143
+msgid "Номер телефону (необов'язково)"
+msgstr ""
+
+#: .\templates\index.html:144
+msgid "Тема"
+msgstr ""
+
+#: .\templates\index.html:148
+msgid "Введіть ваше повідомлення!"
+msgstr ""
+
+#: .\templates\index.html:150
+msgid "Надіслати!"
+msgstr ""
+
+#: .\templates\index.html:154
+msgid "Телефони📞"
+msgstr ""
+
+#: .\templates\index.html:158
+msgid "Пошта📧"
+msgstr ""
+
+#: .\templates\index.html:161
+msgid "Адреса📍"
+msgstr ""
+
+#: .\templates\login.html:29 .\templates\register.html:55
+msgid "Пароль"
+msgstr ""
+
+#: .\templates\login.html:30 .\templates\register.html:57
+msgid "Ввести пароль"
+msgstr ""
+
+#: .\templates\login.html:31
+msgid "Увійти"
+msgstr ""
+
+#: .\templates\login.html:35
+msgid ""
+"Ще не зареєструвався? Тоді переходь сюди і ставай частиною нашого Клубу😘!"
+msgstr ""
+
+#: .\templates\register.html:29 .\templates\register.html:30
+msgid "Ім'я"
+msgstr ""
+
+#: .\templates\register.html:36 .\templates\register.html:37
+msgid "Прізвище"
+msgstr ""
+
+#: .\templates\register.html:43 .\templates\register.html:44
+msgid "Логін"
+msgstr ""
+
+#: .\templates\register.html:63
+msgid "Повтор паролю"
+msgstr ""
+
+#: .\templates\register.html:65
+msgid "Повторити пароль"
+msgstr ""
+
+#: .\templates\register.html:71
+msgid "Скільки у Вас кішок?"
+msgstr ""
+
+#: .\templates\register.html:72
+msgid "Кількість кішок?"
+msgstr ""
+
+#: .\templates\register.html:77 .\templates\register.html:78
+msgid "Розкажіть нам про ваших домашніх улюбленців!"
+msgstr ""
+
+#: .\templates\register.html:83
+msgid "Створюючи акаунт ви погоджуєтесь із нашими"
+msgstr ""
+
+#: .\templates\register.html:83
+msgid "Умовами і політикою конфедеційності"
+msgstr ""
+
+#: .\templates\register.html:84
+msgid "Зареєструватися"
+msgstr ""
+
+#: .\templates\register.html:85
+msgid "Очистити"
+msgstr ""
+
+#: .\templates\register.html:87
+msgid "Вже маєш акаунт? Ну тоді, нумо до "
+msgstr ""
+
+#: .\templates\register.html:87
+msgid "Входу"
+msgstr ""
+
+#: .\templates\register.html:94
+msgid "Дякуємо! Інформація надсилається!"
+msgstr ""
+
+#: .\templates\register.html:99
+msgid "Ми розглянемо вашу заявку!"
+msgstr ""

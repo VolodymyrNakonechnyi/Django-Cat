@@ -1,0 +1,75 @@
+{% load static %}
+{% load static i18n %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}"/>
+</head>
+
+
+<div class="footer-all-info">
+    <div class="social-media-footer">
+        <div class="footer-header-container">
+            <h2 class="social-media-footer-header form-container">{% trans "Ми в соціальних мережах" %}</h2>
+        </div>
+
+        <div class="social-media-container">
+            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/facebook.svg' %}" alt="fb"></a>
+            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/Twitter-logo.svg' %}" alt="tw"></a>
+            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/YouTube-Icon-Full-Color-Logo.wine.svg' %}" alt="yt"></a>
+            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/Instagram-Glyph-Black-Logo.wine.svg' %}" alt="inst"></a>
+        </div>
+
+        <div class="text-social-media-block">
+            {% trans "Приєднуйтесь до нас в соціальні мережі! Там ви матимете змогу взяти участь в спеціальних івентах та навіть виграти призи!" %}
+        </div>
+    </div>
+
+    <div class="certificate">
+        <div class="footer-header-container">
+            <h2 class="social-media-footer-header form-container">{% trans "Справка" %}</h2>
+        </div>
+        <div class="certificate-items">
+            <ul class="certificate-items-list">
+                <li><a href="">{% trans "Політика конфедеційності" %}</a></li>
+                <li><a href="">{% trans "Політика використання файлів cookie" %}</a></li>
+                <li><a href="">{% trans "Підтримка" %}</a></li>
+                <li><a href="">{% trans "Умови користування" %}</a></li>
+                <li><a href="">{% trans "Повідомлення про авторські права" %}</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-nav certificate">
+        <div class="footer-header-container">
+            <h2 class="social-media-footer-header form-container">{% trans "Навігація" %}</h2>
+        </div>
+
+        <div class="certificate-items">
+            <ul class="certificate-items-list">
+                <li><a href="">{% trans "Головна" %}</a></li>
+                <li><a href="#about">{% trans "Оголошення" %}</a></li>
+                <li><a href="#catalogue">{% trans "Каталог" %}</a></li>
+                <li><a href="#winners">{% trans "Переможці" %}</a></li>
+                <li><a href="/exhibitions">{% trans "Виставки" %}</a></li>
+                <li><a href="#aboutUs">{% trans "Про нас" %}</a></li>
+                <li><a href="#contact">{% trans "Контакти" %}</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-register certificate">
+        <a href="login.html"><button class="btn btn-main reg-btn">{% trans "Вхід" %}</button></a>
+        <a href="register.html"><button class="btn btn-main reg-btn">{% trans "Реєстрація" %}</button></a>
+        <div class="reg-text text-social-media-block ">
+            {% trans "Реєстрація завжди відкрита, не бійся, це безкоштовно!" %}
+        </div>
+    </div>
+</div>
+</div>
+
+<hr/>
+
+<div class="footer-rights">
+    <h1>{% trans "@Всі права захищені!" %}</h1>
+</div>
+</footer>

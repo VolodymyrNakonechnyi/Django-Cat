@@ -1,0 +1,90 @@
+{% load static %}
+{% load static i18n %}
+
+<head>
+    <link rel="stylesheet" href="{% static "css\header.css"%}">
+</head>
+
+<nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <div class="logo-container">
+            <a href="{% trans  "/uk-ua" %}"><img src={% static "images/Logo.jpg" %} class="logo"/></a>
+            <p class="logo-text">{% trans 'Клуб "Котолюб"'%}</p>
+        </div>
+            <ul class="menu-items">
+                <li><a class="{% if active_section == 'main' %}item__highlight{% endif %}" href="/uk-ua">{% trans "Головна" %}</a></li>
+                <div>
+                    <li class="menu-drop-block"><a>{% trans "Публікації" %}</a>
+                        <ul>
+                            <li><a href="{% trans  "/uk-ua" %}/catalogue">{% trans "Каталог"%}</a></li>
+                            <li><a class="{% if active_section == 'forum' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/forum">{% trans "Форум"%}</a></li>
+                            <li><a href="{% trans  "/uk-ua" %}/about">{% trans "Оголошення" %}</a></li>
+                        </ul>
+                    </li>
+                </div>
+
+                 <!--Відображення для мобільних пристроїв-->
+                 <li class="phone-item"><a href="{% trans  "/uk-ua" %}/catalogue">{% trans "Каталог"%}</a></li>
+                 <li class="phone-item"><a href="{% trans  "/uk-ua" %}/forum">{% trans "Форум"%}</a></li>
+                 <li class="phone-item"><a href="{% trans  "/uk-ua" %}/about">{% trans "Оголошення" %}</a></li>
+                 <!--Відображення для мобільних пристроїв-->
+
+                <li><a class="{% if active_section == 'exhibitions' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/exhibitions">{% trans "Виставки" %}</a></li>
+                <li><a href="{% trans  "/uk-ua" %}/winners">{% trans "Переможці" %}</a></li>
+                <li><a href="{% trans  "/uk-ua" %}/aboutUs">{% trans "Про нас" %}</a></li>
+                <li><a href="{% trans  "/uk-ua" %}/contact">{% trans "Контакти" %}</a></li>
+
+
+                <!--Відображення для мобільних пристроїв-->
+                <ul class="menu-register-items">
+                    {% if user.is_authenticated %} 
+                        <li><a href={% url 'logout' %}></a></li>
+                    {% else %}
+                        <li><a class="{% if active_section == 'login' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/login">{% trans 'Вхід до клубу котячих любителів "Котолюб"'%}</a></li>
+                        <li>/</li>
+                        <li><a class="{% if active_section == 'register' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/register">{% trans 'Реєстрація членів клубу котячих любителів "Котолюб"' %}</a></li>
+                    {% endif %}
+                </ul>
+                <!--Відображення для мобільних пристроїв-->
+            </ul>
+
+            
+            <div class="menu__language">
+                <li class="menu-drop-block">
+                    <img height='40px' width="40px" src={% static "images/language-icon.svg" %}>
+                    <ul class="menu-items">
+                        <li><a href='/pl-pl'>Polska 🇵🇱</a></li>
+                        <li><a href='/en-gb'>English 🇬🇧</a></li>
+                        <li><a href='/uk-ua'>Українська 🇺🇦</a></li>
+                    </ul>
+                </li>
+            </div>
+
+            {% if user.is_authenticated %}
+            <div>
+                <ul>
+                    <li><a href="profile/{{user.username}}"><img height='40px' width='40px' style="border-radius: 50%;" src={{user_profile.profileimg.url}}/></a></li>
+                <ul>
+            </div>
+            {% endif %}
+            
+            <ul class="register-items">
+                {% if user.is_authenticated %} 
+                <li><a class="{% if active_section == 'settings' %}item__highlight{% endif %}" href="{% url 'settings' %}">Налаштування</a></li>
+                {% else %}
+                <li class="menu-drop-block-reg"> <a>{% trans "Вхід/Реєстрація" %}</a>
+                    <ul>
+                        <li><a class="{% if active_section == 'login' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/login">{% trans 'Вхід до клубу котячих любителів "Котолюб"'%}</a></li>
+                        <li><a class="{% if active_section == 'register' %}item__highlight{% endif %}" href="{% trans  "/uk-ua" %}/register">{% trans 'Реєстрація членів клубу котячих любителів "Котолюб"' %}</a></li>
+                    </ul>
+                </li>
+            </ul>
+            {% endif %}
+    </div>
+</nav>

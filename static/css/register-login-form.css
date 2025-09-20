@@ -1,0 +1,92 @@
+.register-login-form {
+    width: 60%;
+    text-align: center;
+    margin: 15% auto;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-bottom: 60px;    
+}
+
+.sub-container {
+    width: 40%;
+    margin: 20px;
+}
+
+.format-form-text {
+    font-size: 2rem;
+    font-family: inherit;
+    margin: 2%;
+}
+
+.reg-header-container {
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.reg-btn {
+    margin: 5px auto;
+}
+
+.form-button, .clear {
+    font-family: inherit;
+    font-size: calc(5px + 9 * (100vw / 1280));
+    width: 30%;
+    height: 3rem;
+}
+
+
+.form-button:hover, .clear:hover {
+    box-shadow: 0 1px 6px 0 rgb(13, 56, 100, 0.74);
+    transform: translateY(-2px);
+}
+
+input,
+input[type=email],
+input[type=password],
+textarea,
+select {
+    font-family: inherit;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background: rgb(241, 241, 241);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: rgb(221, 221, 221);
+    outline: none;
+}
+
+input:hover,
+textarea:hover {
+    box-shadow: 0 1px 6px 0 rgb(13, 56, 100, 0.74);
+    transition-duration: 0.3s;
+    transform: translateY(-2px);
+}
+
+a {
+    color: dodgerblue;
+}
+
+.question {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cat-form {
+    box-shadow: 0 1px 6px 0 #000000;
+    border-radius: 10px;
+}

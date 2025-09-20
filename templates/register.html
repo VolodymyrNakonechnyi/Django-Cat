@@ -1,0 +1,102 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/popUpWindow.css' %}">
+    <link rel="stylesheet" href="{% static 'css/register-login-form.css' %}">
+
+    <title>{% trans "Реєстрація" %}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            {% include 'header.html' %}
+        </header>
+        
+        <main class="register-login-form">
+            <form id="register-form" onsubmit="return validateForm()" action="{% url 'register' %}" method="POST">
+                {% csrf_token %}
+                  <h1 class="format-form-text">{% trans "Реєстрація" %}</h1>
+                  <div class="flex-container">
+                    <div class="sub-container">
+                        <p><label><b>{% trans "Ім'я" %}</b></label></p>
+                        <input id="firstName" type="text" minlength="2" placeholder="{% trans "Ім'я" %}" name="first_name" required> 
+                        <span id="error-message-first-name" style="color: red;"></span>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label><b>{% trans "Прізвище" %}</b></label></p>
+                        <input id="lastName" type="text" minlength="2" placeholder="{% trans 'Прізвище' %}" name="last_name" required> 
+                        <span id="error-message-last-name" style="color: red;"></span>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label><b>{% trans "Логін" %}</b></label></p>
+                        <input id="login" type="text" minlength="10" maxlength="25" placeholder="{% trans 'Логін' %}" name="username" required>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label for="email"><b>{% trans "Електронна пошта" %}</b></label></p>
+                        <input id="user-email" type="text" name="email" placeholder="{% trans 'Електронна пошта' %}" required>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label for="psw"><b>{% trans "Пароль" %}</b></label></p> 
+                        <input id="password" minlength="8" maxlength="22" type="password" inputmode="latin" placeholder="{% trans 'Ввести пароль' %}" name="password" autocomplete="new-password" required>
+                        <span id="error-message-password" style="color: red;"></span>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label for="psw"><b>{% trans "Повтор паролю" %}</b></label></p>
+                        <input id="confirm-password" minlength="8" maxlength="22" type="password" inputmode="latin" placeholder="{% trans 'Повторити пароль' %}" name="password_confirm" autocomplete="new-password" required> 
+                        <span id="error-message-confirm-password" style="color: red;"></span>
+                        <br><br>
+                    </div>
+                  </div>
+                  <hr style="height: 2px; background-color: #444;" />
+                  <p>{% trans "Створюючи акаунт ви погоджуєтесь із нашими" %} <a href="#">{% trans "Умовами і політикою конфедеційності" %}</a>.</p>
+                
+                <button id="submit-button" type="submit" class="btn btn-main reg-btn form-button" data-modal-target>{% trans "Зареєструватися" %}</button> <br>
+                <button type="reset" class="btn btn-main reg-btn clear">{% trans "Очистити" %}</button>
+
+                <div class="reg-header-container question">
+                    <p>{% trans "Вже маєш акаунт? Ну тоді, нумо до " %}<a href="login.html">{% trans "Входу" %}</a>!</p>
+                </div>
+              </form>
+        </main>
+
+        <div id="modal" class="modal">
+            <div class="modal-header">
+                <div class="title">{% trans "Дякуємо! Інформація надсилається!" %}</div>
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <p>{% trans "Ми розглянемо вашу заявку!" %}</p>
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+        <footer class="footer">
+            {% include 'footer.html' %}
+        </footer>
+    </div>
+   
+    <script src="{% static 'js/register-validation.js' %}"></script>
+    <script src="{% static 'js/height-properties.js' %}"></script>
+    <script src="{% static 'js/popUpWindow.js' %}"></script>
+    
+</body>
+</html>

@@ -1,0 +1,734 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-19 00:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\apps\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\templates\exhibitions.html:14 .\templates\footer.html:62
+#: .\templates\header.html:48 .\templates\login.html:35
+#: .\templates\register.html:15 .\templates\register.html:26
+msgid "Реєстрація"
+msgstr "Rejestracja"
+
+#: .\templates\exhibitions.html:24
+msgid "Найближчі виставки!"
+msgstr "Najbliższe wystawy!"
+
+#: .\templates\exhibitions.html:28
+msgid "Преставляємо нову котячу виставку"
+msgstr "Przedstawiamy nową wystawę kotów"
+
+#: .\templates\exhibitions.html:28
+msgid "Not Nuance November Cat"
+msgstr ""
+
+#: .\templates\exhibitions.html:28
+msgid "яка пройде"
+msgstr "które przejdą"
+
+#: .\templates\exhibitions.html:28
+msgid "із 10 включно по 21 листопада 2024 року!"
+msgstr "od 10 do 21 listopada 2024 r. włącznie!"
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"Хочемо сказати, що в цій виставці будуть брати участь всі бажаючі господарі "
+"із їхніми пухнастими домашніми юлюбленцями. Учасники матимуть змогу виграти "
+"титул найкращого кота року! А також невеликий приз від наших партнерів. "
+"Спільно із компаніями"
+msgstr ""
+"Chcemy powiedzieć, że wszyscy chętni gospodarze wezmą udział w tej "
+"wystawieze swoimi futrzastymi zwierzakami. Uczestnicy będą mogli wygraćtytuł "
+"najlepszego kota roku! A także mała nagroda od naszych partnerów.Razem z "
+"firmami"
+
+#: .\templates\exhibitions.html:28
+msgid "та іншими наш клуб"
+msgstr "i inni nasz klub"
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"влаштує котячу виставку у якій буде вибрано найкращого господаря та кота/"
+"кішку за різними номінаціями. Найголовніший приз який пропонують наші "
+"партнери в номінації кіт та господар року це"
+msgstr ""
+"zorganizuje wystawę kotów, na której zostanie wybrany najlepszy właściciel i "
+"kotkot w różnych nominacjach. Najważniejsza nagroda oferowana przez "
+"nasząnominacja partnerzy w kocie i właściciel roku"
+
+#: .\templates\exhibitions.html:28
+msgid ""
+"Зрозуміло, що господарі, які займуть не головні місця також матимуть дуууже "
+"приємні бонуси, повірте це свято коштує вашої уваги! Всі інші збори від "
+"партнерів та членів клубу будуть відправлені на благодійність! Тому "
+"рекомендуємо не зволікати та максимально завчасно реєструватися на нашому "
+"сайті, а тоді заповнити контактну форму, взяти Вашого котячого улюбленця і "
+"відправитись у представництво клубу, яке можна знайти за гугл картою, яка "
+"прикріплена на сайті. Нехай щастить!"
+msgstr ""
+"Wyraźnie widać, że gospodarze, którzy nie zajmą głównych miejsc, też będą "
+"mieli dużo pieniędzyfajne bonusy, uwierz mi, te wakacje są warte Twojej "
+"uwagi! Wszystkie inne opłaty odPartnerzy i klubowicze zostaną wysłani na "
+"cele charytatywne! Dlategozalecamy nie zwlekać i zarejestrować się jak "
+"najwcześniej na naszym stronie, a następnie wypełnij formularz kontaktowy, "
+"zabierz swojego kociego zwierzaka i idź do przedstawicielstwa klubu, które "
+"znajdziesz na mapie google, któreprzypięty na stronie. Powodzenia!"
+
+#: .\templates\exhibitions.html:33
+msgid "Круто провести час!"
+msgstr "Baw się dobrze!"
+
+#: .\templates\exhibitions.html:34
+msgid ""
+"Це свято дає змогу додати трішечки барв у наше сумне осіннє життя. Та "
+"дозволяє місцевому та іншим бізнесам отримати додатковий прибуток, оскільки "
+"на наше свято з'їзджаються люди зі всього світу із великою кількість чудових "
+"домашніх котів/кішок. Тому ви матимете змогу чудово провести свій час в "
+"компанії таких же, як і Ви, люблячих власників домашніх улюбленців!"
+msgstr ""
+"To święto pozwala dodać trochę koloru do naszego smutnego jesiennego życia. "
+"Ipozwala lokalnym i innym firmom na uzyskanie dodatkowego dochodu, "
+"ponieważludzie z całego świata przyjeżdżają na nasze wakacje z dużą liczbą "
+"wspaniałychkoty domowe/koty. Dzięki temu będziesz mógł się świetnie bawić w "
+"firmy właścicieli zwierząt domowych takich jak ty!"
+
+#: .\templates\exhibitions.html:39
+msgid "Виграти приз!"
+msgstr "Wygrać nagrodę!"
+
+#: .\templates\exhibitions.html:40
+msgid ""
+"Кожен учасник не піде від нас із пустими руками, це просто неможливо, всі "
+"отримають свою долю призів! Це будуть як і сертифікат на корм, спа, зачіски, "
+"стрижку котів так і грошові винагороди у вигляді різних грантів <b>від наших "
+"партнерів</b>, або ж навіть путівки в тропіки!!! Де ви разом із Вашим "
+"домашнім улюбленцем зможете чудово відпочити, а також прогулятися по "
+"найкращих набережних всієї планети!"
+msgstr ""
+"Żaden uczestnik nie opuści nas z pustymi rękami, to po prostu niemożliwe, "
+"wszyscyotrzymają swoją część nagród! Będą to jak certyfikaty na jedzenie, "
+"spa, fryzury,strzyżenie kotów i nagrody pieniężne w postaci różnych grantów "
+"od naszychpartnerzy, a nawet wyjazd w tropiki!!! Gdzie jesteś ze swoimiz "
+"pupilem można wspaniale wypocząć, a także pospacerować wzdłuż najlepsze "
+"nabrzeża całej planety!"
+
+#: .\templates\exhibitions.html:44
+msgid "Ти досі чекаєш? Давай проходь"
+msgstr "nadal czekasz Chodź przez"
+
+#: .\templates\exhibitions.html:44
+msgid "реєстрацію"
+msgstr "rejestracja"
+
+#: .\templates\exhibitions.html:44
+msgid "і приєднуйся до нашого клубу! Ті можливості, які ми пропонуємо саме"
+msgstr "i dołącz do naszego klubu! Możliwości, które oferujemy"
+
+#: .\templates\exhibitions.html:44
+msgid "Тобі"
+msgstr "Ty"
+
+#: .\templates\exhibitions.html:44
+msgid "і твоєму улюбленцю - унікальний дар!"
+msgstr "i Twojego zwierzaka - wyjątkowy prezent!"
+
+#: .\templates\footer.html:12
+msgid "Ми в соціальних мережах"
+msgstr "Jesteśmy w sieciach społecznościowych"
+
+#: .\templates\footer.html:23
+msgid ""
+"Приєднуйтесь до нас в соціальні мережі! Там ви матимете змогу взяти участь в "
+"спеціальних івентах та навіть виграти призи!"
+msgstr ""
+"Dołącz do nas na portalach społecznościowych! Tam będziesz mógł uczestniczyć "
+"wwydarzenia specjalne, a nawet wygraj nagrody!"
+
+#: .\templates\footer.html:29
+msgid "Справка"
+msgstr "Zaświadczenie"
+
+#: .\templates\footer.html:33
+#, fuzzy
+#| msgid "Політика конфеденційності"
+msgid "Політика конфедеційності"
+msgstr "Polityka prywatności"
+
+#: .\templates\footer.html:34
+msgid "Політика використання файлів cookie"
+msgstr "Polityka plików cookie"
+
+#: .\templates\footer.html:35
+msgid "Підтримка"
+msgstr "Wsparcie"
+
+#: .\templates\footer.html:36
+msgid "Умови користування"
+msgstr "Warunki korzystania"
+
+#: .\templates\footer.html:37
+msgid "Повідомлення про авторські права"
+msgstr "Informacja o prawach autorskich"
+
+#: .\templates\footer.html:44
+msgid "Навігація"
+msgstr "Nawigacja"
+
+#: .\templates\footer.html:49 .\templates\header.html:21
+msgid "Головна"
+msgstr "Główny"
+
+#: .\templates\footer.html:50 .\templates\header.html:27
+#: .\templates\header.html:35
+msgid "Оголошення"
+msgstr "Reklama"
+
+#: .\templates\footer.html:51 .\templates\header.html:25
+#: .\templates\header.html:33
+msgid "Каталог"
+msgstr "Katalog"
+
+#: .\templates\footer.html:52 .\templates\header.html:39
+msgid "Переможці"
+msgstr "Zwycięzcy"
+
+#: .\templates\footer.html:53 .\templates\header.html:38
+msgid "Виставки"
+msgstr "Wystawy"
+
+#: .\templates\footer.html:54 .\templates\header.html:40
+#: .\templates\index.html:71
+msgid "Про нас"
+msgstr "O nas"
+
+#: .\templates\footer.html:55 .\templates\header.html:41
+msgid "Контакти"
+msgstr "Łączność"
+
+#: .\templates\footer.html:61 .\templates\header.html:46
+#: .\templates\login.html:13 .\templates\login.html:25
+msgid "Вхід"
+msgstr "Wyjście"
+
+#: .\templates\footer.html:64
+msgid "Реєстрація завжди відкрита, не бійся, це безкоштовно!"
+msgstr "Rejestracja jest zawsze otwarta, nie martw się, jest darmowa!"
+
+#: .\templates\footer.html:73
+msgid "@Всі права захищені!"
+msgstr "@Wszelkie prawa zastrzeżone!"
+
+#: .\templates\forum.html:16 .\templates\header.html:26
+#: .\templates\header.html:34
+msgid "Форум"
+msgstr "Forum"
+
+#: .\templates\forum.html:26
+msgid "Актуальні теми обговорення проблем кішок"
+msgstr "Rzeczywiste tematy do dyskusji o problemach kotów"
+
+#: .\templates\forum.html:30 .\templates\forum.html:31
+msgid "Пошук за темою"
+msgstr "Szukaj według tematu"
+
+#: .\templates\forum.html:33 .\templates\forum.html:66
+#: .\templates\forum.html:97
+msgid "Здоров'я та благополуччя кішки"
+msgstr "Zdrowie i dobre samopoczucie kota"
+
+#: .\templates\forum.html:34 .\templates\forum.html:127
+msgid "Цікаве спостереження"
+msgstr "Ciekawa obserwacja"
+
+#: .\templates\forum.html:35 .\templates\forum.html:154
+msgid "Співжиття із кішкою"
+msgstr "Życie z kotem"
+
+#: .\templates\forum.html:36 .\templates\forum.html:182
+msgid "Проблемна кішка"
+msgstr "Problematyczny kot"
+
+#: .\templates\forum.html:38 .\templates\forum.html:39
+msgid "Пошук за користувачем"
+msgstr "Szukaj według użytkownika"
+
+#: .\templates\forum.html:40 .\templates\forum.html:41
+msgid "Пошук за породою кішки"
+msgstr "Szukaj według rasy kota"
+
+#: .\templates\forum.html:42
+msgid "Дата від"
+msgstr "Data od"
+
+#: .\templates\forum.html:44
+msgid "Дата до"
+msgstr "Data do"
+
+#: .\templates\forum.html:49
+msgid "Я даю згоду на обробку та зберігання моїх персональних даних."
+msgstr ""
+"Wyrażam zgodę na przetwarzanie i przechowywanie moich danych osobowych."
+
+#: .\templates\forum.html:55
+msgid "Очистити поля фільтрації"
+msgstr "Wyczyść pola filtrów"
+
+#: .\templates\forum.html:58
+msgid "Пошук"
+msgstr "Szukaj"
+
+#: .\templates\forum.html:75
+msgid "Моя кішка не може сходити до туалету, що ж робити?"
+msgstr "Mój kot nie może iść do toalety, co mam zrobić?"
+
+#: .\templates\forum.html:77
+msgid ""
+"Дуже довго спостерігаю за своєю кішкою і помітив, що вона не ходить у "
+"туалет! Чому? Можливо це якийсь стрес? Не буде дивним якщо я піду разом з "
+"нею до ветеренара по такій причині? Підкажіть, будь ласка!"
+msgstr ""
+"Od dłuższego czasu obserwuję moją kotkę i zauważyłem, że nie chodzi "
+"dotoaleta! Dlaczego? Może to jakiś stres? Nie będzie zaskoczeniem, jeśli "
+"pójdę zOna do weterynarza z takiego powodu? Powiedz mi, proszę!"
+
+#: .\templates\forum.html:82 .\templates\forum.html:196
+msgid "2 Відповіді"
+msgstr "2 Odpowiedzi"
+
+#: .\templates\forum.html:86 .\templates\forum.html:117
+#: .\templates\forum.html:144 .\templates\forum.html:172
+#: .\templates\forum.html:200
+msgid "Запостив користувач"
+msgstr "Wysłane przez użytkownika"
+
+#: .\templates\forum.html:86
+msgid "VitoScaletta"
+msgstr "VitoScaletta"
+
+#: .\templates\forum.html:87 .\templates\forum.html:118
+#: .\templates\forum.html:145 .\templates\forum.html:173
+#: .\templates\forum.html:201
+msgid "порода кішки"
+msgstr "rasa kota"
+
+#: .\templates\forum.html:87 .\templates\forum.html:173
+msgid "Британська вісловуха"
+msgstr "Brytyjski osioł"
+
+#: .\templates\forum.html:88 .\templates\forum.html:119
+#: .\templates\forum.html:146 .\templates\forum.html:174
+#: .\templates\forum.html:202
+msgid "на"
+msgstr "na"
+
+#: .\templates\forum.html:104
+msgid ""
+"Чому мій кіт після стерилізації впав у депресію? Можливо це якось виправити?"
+msgstr ""
+"Dlaczego mój kot wpadł w depresję po sterylizacji? Czy można temu zaradzić?"
+
+#: .\templates\forum.html:106
+msgid ""
+"Мій кіт Герольд упав у депресію! Він у мене аристократ і я подумав, що "
+"можливо його 'голуба кров' так хоче, тому зі мною так. Проте, вчора я "
+"дізнався, що моя дружина Бенедікта віддала його до ветеренара, бо вважала, "
+"що він себе погано поводить. Ветеренар у свою чергу вирішив його каструвати."
+msgstr ""
+"Mój kot Herold wpadł w depresję! Jest arystokratą i myślałem, żemoże jego "
+"'błękitna krew' tak chce, dlatego ze mną. Jednak wczoraj ja dowiedział się, "
+"że moja żona Benedykta zabrała go do weterynarza, bo myślałaże źle się "
+"zachowuje. Z kolei weterynarz postanowił go wykastrować."
+
+#: .\templates\forum.html:109
+msgid ""
+"Будь ласка, підкажіть, що робити? Я собі місця не нахожду, я люблю Герольда "
+"і не хочу, аби він сумував."
+msgstr ""
+"Proszę, powiedz mi, co mam robić? Nie mogę znaleźć dla siebie miejsca, "
+"kocham Heroldai nie chcę, żeby był smutny."
+
+#: .\templates\forum.html:113
+msgid "10 Відповідей"
+msgstr "10 odpowiedzi"
+
+#: .\templates\forum.html:117
+msgid "KolioRossini"
+msgstr "KolioRossini"
+
+#: .\templates\forum.html:118 .\templates\forum.html:145
+msgid "Шотландська вісловуха"
+msgstr "Szkocki osioł"
+
+#: .\templates\forum.html:135
+msgid ""
+"Кішка падає завжди на лапи, а бутерброд маслом вниз. Якщо я прив'яжу "
+"будерброд маслом вверх до кішки і кину кішку вийде нескінчченний двигун?"
+msgstr ""
+"Kot zawsze spada na łapy, a kanapka z masłem w dół. Jeśli zawiążękanapka z "
+"masłem do kota a jak rzucę kotem to czy okaże się niekończącym się silnikiem?"
+
+#: .\templates\forum.html:136
+msgid "Хтось пробував? Дуже цікаво просто..."
+msgstr "Czy ktoś to próbował? Bardzo ciekawe po prostu..."
+
+#: .\templates\forum.html:140
+msgid "1 Відповідь"
+msgstr "1 odpowiedź"
+
+#: .\templates\forum.html:144
+msgid "VictorioBibik"
+msgstr "VictorioBibik"
+
+#: .\templates\forum.html:162
+msgid ""
+"Одружився, але кішка моєї нової дружини нападає на мене. Що робити? Як "
+"ввійти в її коло довіри?"
+msgstr ""
+"Żonaty, ale atakuje mnie kot mojej nowej żony. Co robić? Jakwstąpić do jej "
+"kręgu zaufania?"
+
+#: .\templates\forum.html:163
+msgid ""
+"Кішка дуже гордовита, б'ється, дереться і дуже агресивно себе поводить. "
+"Проте, коли вона на руках у жінки, то все добре. Чому так? Невже я їй чимось "
+"не подобаюсь? Підскажіть як стати членом сім'ї для кішки!"
+msgstr ""
+"Kot jest bardzo dumny, walczy, walczy i zachowuje się bardzo agresywnie."
+"Jednak kiedy jest w ramionach kobiety, wszystko jest w porządku. Dlaczego "
+"tak? Czy jestem dla niej kimś?nie lubisz mnie? Powiedz mi jak zostać "
+"członkiem rodziny dla kota!"
+
+#: .\templates\forum.html:168
+msgid "0 Відповідей"
+msgstr "0 Odpowiedzi"
+
+#: .\templates\forum.html:172
+msgid "VovaGonchar"
+msgstr "VovaGonchar"
+
+#: .\templates\forum.html:190
+msgid "Помічаю за кішкою маніакальна наклонності."
+msgstr "Za kotem zauważam tendencje maniakalne."
+
+#: .\templates\forum.html:191
+msgid ""
+"Весь час вбиває голубів, хоча ми вегетаріанці. Чому так? І як змусити її "
+"перейти на зелену їжу!"
+msgstr ""
+"Ona cały czas zabija gołębie, mimo że jesteśmy wegetarianami. Dlaczego tak? "
+"I jak ją zrobićprzestaw się na zieloną żywność!"
+
+#: .\templates\forum.html:200
+msgid "EmiliaOkrenets"
+msgstr "EmiliaOkrenets"
+
+#: .\templates\forum.html:201
+msgid "Норвезька лісова"
+msgstr "Norweski las"
+
+#: .\templates\header.html:17 .\templates\header.html:25
+#: .\templates\header.html:26 .\templates\header.html:27
+#: .\templates\header.html:33 .\templates\header.html:34
+#: .\templates\header.html:35 .\templates\header.html:38
+#: .\templates\header.html:39 .\templates\header.html:40
+#: .\templates\header.html:41 .\templates\header.html:46
+#: .\templates\header.html:48 .\templates\header.html:69
+#: .\templates\header.html:70
+msgid "/uk-ua"
+msgstr "/pl-pl"
+
+#: .\templates\header.html:18
+msgid "Клуб \"Котолюб\""
+msgstr "Klub \"Kołolub\""
+
+#: .\templates\header.html:23
+msgid "Публікації"
+msgstr "Publikacje"
+
+#: .\templates\header.html:67
+msgid "Вхід/Реєстрація"
+msgstr "Logowanie/Rejestracja"
+
+#: .\templates\header.html:69
+msgid "Вхід до клубу котячих любителів \"Котолюб\""
+msgstr "Wejście do klubu miłośników kotów \"Kotolyub\""
+
+#: .\templates\header.html:70
+msgid "Реєстрація членів клубу котячих любителів \"Котолюб\""
+msgstr "Rejestracja członków klubu miłośników kotów \"Kotolyub\""
+
+#: .\templates\index.html:14
+msgid "Домашня сторінка"
+msgstr "Strona główna"
+
+#: .\templates\index.html:25
+msgid "Вітаємо в клубі \"Котолюб\"!"
+msgstr "Witamy w klubie \"Kotolyub\"!"
+
+#: .\templates\index.html:26
+msgid "Приєднуйся до нас!"
+msgstr "Dołącz do nas!"
+
+#: .\templates\index.html:27
+msgid "Дізнатися більше?"
+msgstr "Ucz się więcej?"
+
+#: .\templates\index.html:33
+msgid "Коти переможців минулих виставок!"
+msgstr "Koty zwycięzców poprzednich wystaw!"
+
+#: .\templates\index.html:82
+msgid "Наша місія і боротьба!"
+msgstr "Nasza misja i walka!"
+
+#: .\templates\index.html:83
+msgid ""
+"Ми боремось за правильне виховання і доглядом за кішками. У цілому ми "
+"опираємось на довіру і допомогу наших покровителів у виді Вас, любителів "
+"кішок. Адже саме Ви, господар кішки, або ще ні - наша опора і показник "
+"якості!"
+msgstr ""
+"Walczymy o prawidłowe wychowanie i opiekę nad kotami. Generalnie my"
+"Liczymy na zaufanie i pomoc naszych patronów w postaci Was, fanów"
+"koty. Przecież to ty, właściciel kota, czy jeszcze nie - nasze wsparcie i wskaźnik"
+"jakość!"
+#: .\templates\index.html:87
+msgid "Щорічні виставки!"
+msgstr "Coroczne wystawy!"
+
+#: .\templates\index.html:88
+msgid ""
+"За рахунок щорічної виставки, яку ми страємось проводити, навіть у складні "
+"та буремні часи, ми допомагаємо розвивати місцевий бізнес, тому більшість "
+"може презентувати товари як для кішок так і для всієї сім'ї. Наше св'ято це "
+"не просто про тварин це про сім'ю і щастя!"
+msgstr ""
+"Dzięki corocznej wystawie, którą staramy się organizować nawet w trudnych czasach"
+"i burzliwych czasach, pomagamy rozwijać lokalne biznesy, więc większość"
+"można zaprezentować towar zarówno dla kotów jak i dla całej rodziny. Nasze święto to"
+"nie chodzi tylko o zwierzęta, chodzi o rodzinę i szczęście!"
+
+#: .\templates\index.html:95
+msgid "Про можливості нашого сайту"
+msgstr "O możliwościach naszej strony"
+
+#: .\templates\index.html:101
+msgid "Оголошення!"
+msgstr "Reklama!"
+
+#: .\templates\index.html:102
+msgid ""
+"Наш клуб дозволяє Вам розміщувати оголошення на сайті. Оголошення можуть "
+"стосуватися як ваших котів, так і Вас самих. Тому будьте чемні!"
+msgstr ""
+"Nasz klub umożliwia umieszczanie reklam w serwisie. Reklamy mogą "
+"zajmij się swoimi kotami i sobą. Więc bądź grzeczny!"
+
+#: .\templates\index.html:107
+msgid "Пишіть, пишіть і ще раз пишіть!"
+msgstr "Pisz, pisz i jeszcze raz pisz!"
+
+#: .\templates\index.html:108
+msgid ""
+"Напишіть, спільноті важливо знати Вашу думку про нас! Тому просимо Вас у "
+"коментарі, пишіть про все про проблеми, про побажання, про Ваші зауваження! "
+"Ми справді цінуємо Вашу думку. Якщо хочете зв'язатися з нами пройдіть нище "
+"та заповніть форму, або тицяйте на пункт меню 'Контакти'."
+msgstr ""
+"Napisz, ważne jest, aby społeczność poznała Twoją opinię o nas! Dlatego prosimy Cię o"
+"komentarze, piszcie o wszystkim o problemach, o życzeniach, o swoich uwagach!"
+"Naprawdę cenimy sobie Twoją opinię. Jeśli chcesz się z nami skontaktować, przejdź poniżej"
+"i wypełnij formularz lub kliknij pozycję menu „Kontakty”."
+
+#: .\templates\index.html:110
+msgid "Нехай щастить!"
+msgstr "Powodzenia!"
+
+#: .\templates\index.html:120
+msgid "Ми в соціальних мережах!"
+msgstr "Jesteśmy w sieciach społecznościowych!"
+
+#: .\templates\index.html:132
+msgid "Напишіть нам!"
+msgstr "Napisz do nas!"
+
+#: .\templates\index.html:134
+msgid "Ваше ім'я"
+msgstr "Twoje imię"
+
+#: .\templates\index.html:135 .\templates\login.html:26
+#: .\templates\login.html:27 .\templates\register.html:49
+#: .\templates\register.html:50
+msgid "Електронна пошта"
+msgstr "E-mail"
+
+#: .\templates\index.html:136
+msgid "Номер телефону (необов'язково)"
+msgstr "Numer telefonu (opcjonalnie)"
+
+#: .\templates\index.html:137
+msgid "Тема"
+msgstr "Temat"
+
+#: .\templates\index.html:141
+msgid "Введіть ваше повідомлення!"
+msgstr "Wpisz swoją wiadomość!"
+
+#: .\templates\index.html:143
+msgid "Надіслати!"
+msgstr "Wysłać!"
+
+#: .\templates\index.html:147
+msgid "Телефони📞"
+msgstr "Numery telefoniczne📞"
+
+#: .\templates\index.html:151
+msgid "Пошта📧"
+msgstr "E-mail"
+
+#: .\templates\index.html:154
+msgid "Адреса📍"
+msgstr "Adres 📍"
+
+#: .\templates\login.html:29 .\templates\register.html:55
+msgid "Пароль"
+msgstr "Hasło"
+
+#: .\templates\login.html:30 .\templates\register.html:57
+msgid "Ввести пароль"
+msgstr "Wprowadź hasło"
+
+#: .\templates\login.html:31
+msgid "Увійти"
+msgstr "Zalogować się"
+
+#: .\templates\login.html:35
+msgid ""
+"Ще не зареєструвався? Тоді переходь сюди і ставай частиною нашого Клубу😘!"
+msgstr ""
+"Jeszcze się nie zarejestrowałeś? Wejdź tutaj i zostań częścią naszego Klubu😘!"
+
+#: .\templates\register.html:29 .\templates\register.html:30
+msgid "Ім'я"
+msgstr "Imię"
+
+#: .\templates\register.html:36 .\templates\register.html:37
+msgid "Прізвище"
+msgstr "Nazwisko"
+
+#: .\templates\register.html:43 .\templates\register.html:44
+msgid "Логін"
+msgstr "Zaloguj sie"
+
+#: .\templates\register.html:63
+msgid "Повтор паролю"
+msgstr "Powtórz hasło"
+
+#: .\templates\register.html:65
+msgid "Повторити пароль"
+msgstr "Powtórz hasło"
+
+#: .\templates\register.html:71
+msgid "Скільки у Вас кішок?"
+msgstr "Ile masz kotów?"
+
+#: .\templates\register.html:72
+msgid "Кількість кішок?"
+msgstr "Liczba kotów?"
+
+#: .\templates\register.html:77 .\templates\register.html:78
+msgid "Розкажіть нам про ваших домашніх улюбленців!"
+msgstr "Opowiedz nam o swoich zwierzakach!"
+
+#: .\templates\register.html:83
+msgid "Створюючи акаунт ви погоджуєтесь із нашими"
+msgstr "Tworząc konto, zgadzasz się z naszym"
+
+#: .\templates\register.html:83
+msgid "Умовами і політикою конфедеційності"
+msgstr "Regulamin i polityka prywatności"
+
+#: .\templates\register.html:84
+msgid "Зареєструватися"
+msgstr "Zapisać się"
+
+#: .\templates\register.html:85
+msgid "Очистити"
+msgstr "Posprzątać"
+
+#: .\templates\register.html:87
+msgid "Вже маєш акаунт? Ну тоді, нумо до "
+msgstr "Posiadasz już konto? No to chodźmy do"
+
+#: .\templates\register.html:87
+msgid "Входу"
+msgstr "Wejścia"
+
+#: .\templates\register.html:94
+msgid "Дякуємо! Інформація надсилається!"
+msgstr "Rozpatrzymy Twoją aplikację!"
+
+#: .\templates\register.html:99
+msgid "Ми розглянемо вашу заявку!"
+msgstr "Rozpatrzymy Twoją aplikację!"

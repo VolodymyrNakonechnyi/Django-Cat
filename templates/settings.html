@@ -1,0 +1,84 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/popUpWindow.css' %}">
+    <link rel="stylesheet" href="{% static 'css/register-login-form.css' %}">
+
+    <title>{% trans "Реєстрація" %}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            {% include 'header.html' %}
+        </header>
+        
+        <main class="register-login-form">
+            <form id="register-form" onsubmit="return validateForm()" action="{% url 'settings' %}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                  <h1 class="format-form-text">{% trans "Налаштування профілю" %}</h1>
+                  <div class="flex-container">
+                    <div class="sub-container">
+                        <p><label><b>{% trans "Ім'я" %}</b></label></p>
+                        <input id="firstName" type="text" minlength="2" placeholder="{% trans "Ім'я" %}" value="{{user_object.first_name}}" name="first_name"> 
+                        <span id="error-message-first-name" style="color: red;"></span>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label><b>{% trans "Прізвище" %}</b></label></p>
+                        <input id="lastName" type="text" minlength="2" placeholder="{% trans 'Прізвище' %}" value="{{user_object.last_name}}" name="last_name"> 
+                        <span id="error-message-last-name" style="color: red;"></span>
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label for="email"><b>{% trans "Електронна пошта" %}</b></label></p>
+                        <input id="user-email" minlength="10" type="text" name="email" value="{{user_object.email}}" placeholder="{% trans 'Електронна пошта' %}">
+                        <br><br>
+                    </div>
+
+                    <div class="sub-container">
+                        <p><label for="psw"><b>{% trans "Місцеположення" %}</b></label></p>
+                        <input placeholder="{% trans 'Місцеположення' %}" value="{{user_profile.location}}" name="location"> 
+                        <br><br>
+                    </div>
+
+
+                    <div class="sub-container">
+                        <p><label for="psw"><b>{% trans "Про себе" %}</b></label></p>
+                        <textarea  placeholder="{% trans 'Про себе' %}" name="bio">{{user_profile.bio}}</textarea>
+                        <br><br>
+                    </div>
+
+
+                    <div class="sub-container">
+                        <p><label for="psw"><b>{% trans "Картинка профілю" %}</b></label></p>
+                        <input id="confirm-password" type="file" placeholder="{% trans 'Картинка' %}" name="profileimg"> 
+                        <br><br>
+                    </div>
+                  </div>
+                  <hr style="height: 2px; background-color: #444;" />
+                
+                <button id="submit-button" type="submit" class="btn btn-main reg-btn form-button">{% trans "Зберегти зміни" %}</button> <br>
+                <a href="{% url 'logout' %}">{% trans "Вийти із профілю" %}</a><br>
+              </form>
+        </main>
+
+        <footer class="footer">
+            {% include 'footer.html' %}
+        </footer>
+    </div>
+   
+    <script src="{% static 'js/register-validation.js' %}"></script>
+    <script src="{% static 'js/height-properties.js' %}"></script>
+    
+</body>
+</html>

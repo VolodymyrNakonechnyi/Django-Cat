@@ -1,0 +1,49 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href={% static "css/style.css"%}>
+    <link rel="stylesheet" href={% static "css/register-login-form.css"%}>
+    <title>{% trans "Вхід"%} </title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            {% include 'header.html' %}
+        </header>
+        
+        
+        <main class="register-login-form">
+            <form id="login-form" method="POST" action="{% url 'login' %}" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="reg-header-container">
+                  <h1 class="format-form-text">{% trans "Вхід" %}</h1>
+                    <p><label for="email"><b>{% trans "Електронна пошта" %}</b></label></p>
+                    <input id="email" minlength="10" maxlength="64" placeholder="{% trans "Логін" %}" name="username" required>
+                    <p><label for="psw"><b>{% trans "Пароль" %}</b></label></p>
+                    <input id="password" minlength="8" maxlength="22" type="password" placeholder="{% trans "Ввести пароль" %}" name="password" required>
+                  <p><button type="submit" class="btn btn-main reg-btn form-button">{% trans "Увійти" %}</button></p>
+                </div>
+
+                <div class="reg-header-container question">
+                    <p>{% trans "Ще не зареєструвався? Тоді переходь сюди і ставай частиною нашого Клубу😘!" %} <a href="/register">{% trans "Реєстрація" %}</a>!</p>
+                  </div>
+                
+              </form>
+        </main>
+
+        <footer class="footer">
+            {% include 'footer.html'%}
+        </footer>
+        
+    </div>
+
+    <script src="{% static 'js/height-properties.js' %}"></script>
+</body>
+</html>

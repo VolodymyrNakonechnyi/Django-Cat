@@ -1,0 +1,56 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href={% static "css/style.css" %}>
+    <link rel="stylesheet" href={% static "css/register-login-form.css"%}>
+    <link rel="stylesheet" href={% static "css/exhibitions.css" %}>
+    <title>{% trans "Реєстрація" %}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            {% include 'header.html' %}
+        </header>
+        
+        <main class="promo">
+            <div class="box header-style-margin">
+                <h1 class="info-section-header">{{ title }}</h1>
+            </div>
+
+            <div class="text-exhibitions-block info-club-block">
+                {% trans "Преставляємо нову котячу виставку" %} <b>{{ exhb }}</b>, {% trans "яка пройде" %} <u>{% trans "із 10 включно по 21 листопада 2024 року!" %}</u> {% trans "Хочемо сказати, що в цій виставці будуть брати участь всі бажаючі господарі із їхніми пухнастими домашніми юлюбленцями. Учасники матимуть змогу виграти титул найкращого кота року! А також невеликий приз від наших партнерів. Спільно із компаніями" %} <b>"Yammy-Yammy-Cat", "HP catrin", "North Kiss", "Irina Cat"</b> {% trans "та іншими наш клуб" %} <b>"Котолюб"</b> {% trans "влаштує котячу виставку у якій буде вибрано найкращого господаря та кота/кішку за різними номінаціями. Найголовніший приз який пропонують наші партнери в номінації кіт та господар року це" %} <b>5-ти річний сертифікат на безкоштовний корм для вашого домашнього улюбленця від магазинів партнерів та господарський приз у виді 100 000$, визнання від інших клубів та звичайно ж 3-ох місячна путівка на Сейшельські острови</b>. {% trans "Зрозуміло, що господарі, які займуть не головні місця також матимуть дуууже приємні бонуси, повірте це свято коштує вашої уваги! Всі інші збори від партнерів та членів клубу будуть відправлені на благодійність! Тому рекомендуємо не зволікати та максимально завчасно реєструватися на нашому сайті, а тоді заповнити контактну форму, взяти Вашого котячого улюбленця і відправитись у представництво клубу, яке можна знайти за гугл картою, яка прикріплена на сайті. Нехай щастить!" %}
+            </div>
+
+            <div class="promo-cat-exhibition">
+                <div class="promo-cat-exhibition-item">
+                    <h1 class="block-h">{% trans "Круто провести час!" %}</h1>
+                    <p class="promo-cat-exhibition-description">{{ moto }}</p>
+                </div>
+                <div class="promo-cat-exhibition-central-item">
+                </div>
+                <div class="promo-cat-exhibition-item">
+                    <h1 class="block-h">{% trans "Виграти приз!" %}</h1>
+                    <p class="promo-cat-exhibition-description">{{ text }}</p>
+                </div>
+            </div>
+
+            <div class="block-h">{% trans "Ти досі чекаєш? Давай проходь" %} <a href="register.html">{% trans "реєстрацію" %}</a> {% trans "і приєднуйся до нашого клубу! Ті можливості, які ми пропонуємо саме" %} <b>{% trans "Тобі" %}</b> {% trans "і твоєму улюбленцю - унікальний дар!" %}
+            </div>
+        </main>
+
+        <footer class="footer">
+            {% include 'footer.html'%}        
+        </footer>
+        
+    </div>
+
+    <script src="scripts/height-properties.js"></script>
+</body>
+</html>

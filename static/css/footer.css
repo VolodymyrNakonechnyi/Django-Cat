@@ -1,0 +1,75 @@
+.footer {
+  position: relative;
+    background-color:rgb(75,0,130, 0.9);
+    color: white;
+  }
+  
+  .footer-all-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: inherit;
+    margin-bottom: auto;
+    font-size: calc(5px + 5 * (100vw / 1280));
+    height: calc(var(--vh, 1vh) * 25);
+    width: 100%;
+  }
+  
+  .social-media-footer {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .social-media-footer-header {
+    width: 100%;
+    height: calc(var(--vh, 1vh) * 5);
+    font-size: calc(8px + 8 * (100vw / 1280));
+    margin-bottom: 0.6em;
+  }
+  
+  .text-social-media-block {
+    width: 100%;
+  }
+  
+  .certificate {
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  .certificate-items-list li {
+    margin: calc(var(--vh, 1vh) * 0.8) auto;
+  }
+  
+  .certificate-items-list li a {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+  
+  }
+  
+  .reg-btn {
+    width: 70%;
+    height: 20%;
+    font-size: 70%;
+  }
+  
+  .reg-text {
+    margin: calc(var(--vh, 1vh) * 1) auto;
+    font-size: 100%; 
+  }
+  
+  .footer-rights {
+    background-color: rgb(75,0,130, 0.9);
+    color: rgb(255, 255, 255);
+    height: calc(var(--vh, 1vh) * 3);
+    width: 100%;
+    text-align: center;
+    margin: 1px 0;
+    font-family: inherit;
+  }

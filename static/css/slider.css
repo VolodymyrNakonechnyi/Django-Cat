@@ -1,0 +1,91 @@
+/*================ Реалізація слайдера ===================*/
+#winner-slider-section {
+  visibility: visible;
+}
+
+.winner-cats {
+  height: calc(var(--vh, 1vh) * 50);
+  display: grid;
+  place-items: center;
+  grid-template-rows: 24fr 1fr;
+}
+
+.winners__slider {
+  width: 100%;
+  max-width: 60%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;  
+  border-radius: 15px;
+}
+
+
+.winners__slide {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.winners__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.slider-btn:active {
+  transform: scale(1.1);
+}
+
+.slider-btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.slider-btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+/*Індикатори*/
+
+.slider-indicators {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.indicator {
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(9, 93, 99);
+}
+
+.indicator:active {
+  transform: scale(1.1);
+}
+
+.indicator:hover {
+  box-shadow: 0 1px 1px 0 rgb(13, 56, 100, 0.74);
+  transition-duration: 0.3s;
+  transform: translateY(-1px);
+}
+

@@ -1,0 +1,95 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href={% static "css/style.css"%}>
+    <link rel="stylesheet" href={% static "css/register-login-form.css"%}>
+    <link rel="stylesheet" href={% static "css/profile.css"%}>
+    <title>{% trans "Вхід"%} </title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+            {% include 'header.html' %}
+        </header>
+        
+        <div class="profile">
+            <h1 class="profile__header">Профіль котолюба</h1>
+            <div class="profile__presentation">
+                <img class="profile__img" src='{{ user_profile.profileimg.url }}'></img>
+            
+                <div class="profile__bio">
+                    <h1>Про мене</h1>
+                    <p>{{ user_profile.bio }}</p>
+                </div>
+            </div>
+            <h1>Деталі про мене</h1>
+
+            <div class="profile__details">
+                <div>
+                    <h1>Ім’я:</h1>
+                    <p>{{ user_object.first_name}} {{ user_object.last_name}}</p>
+                </div>
+
+                <div>
+                    <h1>Еmail:</h1>
+                    <p>{{ user_object.email }}</p>
+                </div>
+
+                <div>
+                    <h1>Місцеположення:</h1>
+                    <p>{{ user_profile.location }}</p>
+                </div>
+            </div>
+
+            <h1>Мої кішки</h1>
+            <div class="profile__cats">
+
+                {% for cat in cats %}
+                <div>
+                    <img src={{cat.image.url}}/>
+                    <p>{{cat.name}}, {{cat.age}} роки</p>
+                </div>
+                {% endfor %}
+
+                <div>
+                    <form method="POST" class="profile__cat-form" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input name="name" placeholder="Ім'я" />
+                        <select name="breed" placeholder="Порода">
+                            {% for breed in breeds %}
+                              <option>{{ breed }}</option>
+                            {% endfor %}
+                        </select>                        <input name="sex" placeholder="Стать" />
+                        <input name="age" placeholder="Вік" />
+                        <input name="color" placeholder="Колір" />
+                        <input name="image" type="file" placeholder="Прикріпи фото кота" />
+                        <button type="submit">Додати кішку</button>
+                    </form>
+                    <p>Додати кішку</p>
+                </div>
+            </div>
+            
+            
+        </div>
+
+
+
+        <footer class="footer">
+            {% include 'footer.html'%}
+        </footer>
+        
+    </div>
+
+    <script src="{% static 'js/modules/popup.js'%}">
+</body>
+</html>

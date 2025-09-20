@@ -1,0 +1,156 @@
+{% load static %}
+{% load static i18n %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slider.css' %}">
+
+    <title>{% trans 'Домашня сторінка' %}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            {% include 'header.html' %}
+        </header>
+
+        <main class="page">
+            <section id="home" class="showcase-area">
+                <div class="welcome-text">
+                    <h1 class="main-title">{% trans 'Вітаємо в клубі "Котолюб"!'%}</h1>
+                    <p class="inputting-text">{% trans 'Приєднуйся до нас!' %}</p>
+                    <button class="btn btn-main"><b>{% trans 'Дізнатися більше?'%}</b></button>
+                </div>
+            </section>
+
+            <div class="box wnr-cats">
+                <h1 class="info-section-header wnr-cats-hdr">{% trans "Коти переможців минулих виставок!" %}</h1>
+            </div>
+
+            <section id="winner-slider-section">
+                <div id="winners" class="winner-cats">
+                    <div class="winners__slider">
+                        <div class="winners__slide">
+                            <img src="{% static 'images/winner-cat-3.jpg' %}" alt="">
+                        </div>
+
+                        <div class="winners__slide">
+                            <img src="{% static 'images/winner-cat-6.jpg' %}" alt="">
+                        </div>
+
+                        <div class="winners__slide">
+                            <img src="{% static 'images/winner-cat-7.jfif' %}" alt="">
+                        </div>
+
+                        <div class="winners__slide">
+                            <img src="{% static 'images/winner-cat-10.jpg' %}" alt="">
+                        </div>
+
+                        <button class="slider-btn slider-btn-next">&gt;</button>
+                        <button class="slider-btn slider-btn-prev">&lt;</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="aboutUs">
+                <div class="box">
+                    <h1 class="info-section-header">{% trans 'Про нас' %}</h1>
+                </div>
+            </section>
+
+            <div class="main-info-first">
+                <img class="info-photo-first" src="{% static 'images/grey-white-cat-sitting-looking-side-pretty-grery-background-turning-head-to-138505998.jpg' %}">
+                <div class="info-container">
+                    <div class="info-club-block">
+                        <h1 class="block-h">{% trans 'Наша місія і боротьба!' %}</h1>
+                        <p>{% trans "Ми боремось за правильне виховання і доглядом за кішками. У цілому ми опираємось на довіру і допомогу наших покровителів у виді Вас, любителів кішок. Адже саме Ви, господар кішки, або ще ні - наша опора і показник якості!" %}</p>
+                    </div>
+
+                    <div class="info-club-block">
+                        <h1 class="block-h">{% trans 'Щорічні виставки!' %}</h1>
+                        <p>{% trans "За рахунок щорічної виставки, яку ми страємось проводити, навіть у складні та буремні часи, ми допомагаємо розвивати місцевий бізнес, тому більшість може презентувати товари як для кішок так і для всієї сім'ї. Наше св'ято це не просто про тварин це про сім'ю і щастя!" %}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1 class="info-section-header">{% trans 'Про можливості нашого сайту' %}</h1>
+            </div>
+
+            <section class="main-info-second">
+                <img class="info-photo-second" src="{% static 'images/portrait-grey-cat-background-126243718.jpg' %}">
+                <div class="info-container">
+                    <div class="info-club-block">
+                        <h1 class="block-h">{% trans 'Оголошення!' %}</h1>
+                        <p>{% trans 'Наш клуб дозволяє Вам розміщувати оголошення на сайті. Оголошення можуть стосуватися як ваших котів, так і Вас самих. Тому будьте чемні!' %}</p>
+                    </div>
+
+                    <div class="info-club-block">
+                        <h1 class="block-h">{% trans 'Пишіть, пишіть і ще раз пишіть!' %}</h1>
+                        <p>{% trans "Напишіть, спільноті важливо знати Вашу думку про нас! Тому просимо Вас у коментарі, пишіть про все про проблеми, про побажання, про Ваші зауваження! Ми справді цінуємо Вашу думку. Якщо хочете зв'язатися з нами пройдіть нище та заповніть форму, або тицяйте на пункт меню 'Контакти'." %}</p>
+                        <p>{% trans 'Нехай щастить!' %}</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact-container container">
+                    <div class="contact-img">
+                        <img class="cnt-img" src="{% static 'images/contact.jpg' %}" alt="">
+                        <div class="box wnr-cats">
+                            <h1 class="social-media-header">{% trans 'Ми в соціальних мережах!' %}</h1>
+                        </div>
+                        <div class="social-media-container">
+                            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/facebook.svg' %}" alt="fb"></a>
+                            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/Twitter-logo.svg' %}" alt="tw"></a>
+                            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/YouTube-Icon-Full-Color-Logo.wine.svg' %}" alt="yt"></a>
+                            <a href="#" class="fa"><img class="fa-img" src="{% static 'images/Instagram-Glyph-Black-Logo.wine.svg' %}" alt="inst"></a>
+                        </div>
+                    </div>
+
+                    <form method="POST" action="" class="form-container" >
+                        {% csrf_token %}
+                        <div class="box">
+                            <h2>{% trans 'Напишіть нам!' %}</h2>
+                        </div>
+                        <input type="text" name='fullname'placeholder="{% trans "Ваше ім'я" %}">
+                        <input type="email" name='email' placeholder="{% trans 'Електронна пошта' %}">
+                        <input type="phone-number" name='phone_number' placeholder="{% trans "Номер телефону (необов'язково)" %}">
+                        <input type="theme" name='theme' placeholder="{% trans 'Тема' %}">
+                        <textarea name="description" cols="30" rows="6" placeholder="{% trans 'Введіть ваше повідомлення!' %}"></textarea>
+                        <button type='submit' class="btn btn-main btn-submit">{% trans 'Надіслати!' %}</button>
+                    </form>
+                </div>
+                <div class="contact-data">
+                    <div>{% trans 'Телефони📞' %}:
+                        <p>044-400-61-46</p>
+                        <p>044-529-24-02</p>
+                    </div>
+                    <div>{% trans 'Пошта📧' %}:
+                        <p>cat-lover-love-cat@mail.com</p>
+                    </div>
+                    <div>{% trans 'Адреса📍' %}:
+                        <p>1190 Folsom St, San Francisco, CA 94103</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6256275962983!2d-122.41205978519042!3d37.77537551989891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580827e037057%3A0x8c1626dade5a7532!2s1190%20Folsom%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sua!4v1622775366813!5m2!1sen!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+        </main>
+
+        <footer class="footer">
+            {% include 'footer.html' %}
+        </footer>
+    </div>
+    <script src="{% static 'js/dist/main-page/bundle.js' %}"></script>
+</body>
+</html>

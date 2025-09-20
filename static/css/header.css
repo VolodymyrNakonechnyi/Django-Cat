@@ -1,0 +1,126 @@
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.item__highlight:first-child {
+    color:rgb(255, 228, 120);
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.menu-register-items {
+  display: none;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px rgb(170, 170, 170);
+  position: fixed;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 59.5px;
+  z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  height: 64px;
+  align-items: center;
+}
+.navbar-items {
+  display: flex;
+}
+
+.register-items, 
+.menu-items {
+  display: flex;
+}
+
+.register-items li, 
+.menu-items li {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 0.5rem;
+  font-size: calc(7px + 9 * (100vw / 1280)); /*16px*/
+}
+
+.register-items li a,
+.menu-items li a {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+}
+
+.register-items li a:hover,
+.menu-items li a:hover {
+  color: rgb(255, 228, 120);
+  transition: color 0.3s ease-in-out;
+} 
+
+.menu-drop-block ul, .menu-drop-block-reg ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(170, 170, 170, 1.0);
+}
+
+.menu-drop-block-reg ul {
+  width: 15%;
+  right: 0%;
+}
+
+.menu-drop-block ul {
+  width: 12%;
+}
+
+.menu-drop-block:hover ul, .menu-drop-block-reg:hover ul {
+  display: block;
+  transition-delay: 1s;
+}
+
+
+.menu-drop-block ul li,
+.menu-drop-block-reg ul li {
+  font-size: calc(7px +  9* (100vw / 1280));
+  line-height: 1.5rem;
+
+}
+
+.logo-container {
+  justify-content: center;
+  text-align: center;
+  font-family: inherit;
+  margin-bottom: 5px;
+  height: 55px;
+  width: 130px;
+}
+
+.logo-text {
+  font-size: 15px;
+}
+
+.logo {
+  width: 35%;
+  height: 70%;
+}
+
+.info-section-header {
+  margin: 0 auto;
+  font-size: calc(16px + 34 * (100vw / 1280)); /*50px*/
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+}
+
+.phone-item {
+  display: none;
+}
